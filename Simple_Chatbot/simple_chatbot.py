@@ -53,7 +53,7 @@ def chatbot_preprocessing():
         ['hello|hi|hey', [' Hello', ' Hey There']],
         ['my name is (.*)', [' Hi %1, how are you today']],
         ['what are you doing(.*)', [' I am solving your problems :)']],
-        ['what is your name(.*)|who are you(.*)', [' I am GovNar :)']],
+        ['what is your name(.*)|who are you(.*)', [' I am GovNaB :)']],
         ['how are you(.*)', [' I am fine, How about you ?']],
         ['fine(.*)|i am fine(.*)|(.*)great|doing great', [' Nice to hear :o']],
         ['age(.*)|your age(.*)|what is your age(.*)|how old are you(.*)',[' Asking someone\'s age is a rude step towards them :(']],
@@ -112,14 +112,14 @@ root = Tk()                                                                 # cr
 root.geometry('450x650')                                                    # setting the default size of GUI Window
 root.minsize(450, 650)                                                      # setting the minimum size of GUI Window
 root.maxsize(450, 650)                                                      # setting the maximum size of GUI Window
-root.title('GovNar - A ChatBot made by Yashasvi Bhatt')                     # giving the title to GUI Window
+root.title('GovNaB - A ChatBot made by Yashasvi Bhatt')                     # giving the title to GUI Window
 root.wm_iconbitmap('images/simple_chatbot.ico')                             # giving icon to GUI Window
 root.configure(bg = '#00aaa0')                                              # setting the background color of root window
 
 # setting up the main layout of GUI Window
 
 # header
-Label(text = 'GovNar', font = 'lucida 25 bold', bg = '#462666', fg = '#fcf4d9', width = 450, height = 2).pack()
+Label(text = 'GovNaB', font = 'lucida 25 bold', bg = '#462666', fg = '#fcf4d9', width = 450, height = 2).pack()
 
 # body header
 Label(text = 'Hey There! I am a ChatBot, I can help you', font = 'lucida 15 bold', fg = '#003366', bg = '#00aaa0').pack(pady = 10)
