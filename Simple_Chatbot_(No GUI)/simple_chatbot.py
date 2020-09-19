@@ -7,7 +7,7 @@ from nltk.chat.util import Chat, reflections
 pairs = [
     ['hello|hi|hey', ['Hello', 'Hey There']],
     ['my name is (.*)', ['Hi %1, how are you today']],
-    ['what is your name(.*)', ['I am GovNar :)']],
+    ['what is your name(.*)', ['I am GovNaB :)']],
     ['how are you(.*)', ['I am fine, How about you ?']],
     ['fine(.*)|i am fine(.*)|great|doing great', ['Nice to hear :o']],
     ['age(.*)|your age(.*)|what is your age(.*)|how old are you(.*)', ['Asking someone\'s age is a rude step towards them :(']],
